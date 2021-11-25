@@ -1,0 +1,199 @@
+@import url('https://fonts.google.com/specimen/Poppins)');
+
+h1, h2, h3, h4, h5 {
+    color: hsl(257, 27%, 26%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 75%);
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: hsl(0, 0%, 75%);
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.header_flex {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header_btn {
+    margin-left: auto;
+}
+
+.header_textbox {
+    flex: 0 0 50%;
+    padding: 0 5vw 0 0;
+    margin-top: -9rem;
+}
+
+.header_textbox *:not(:last-child) {
+   margin-bottom: 2rem;
+}
+
+.header_text {
+    font-size: 1.6rem;
+}
+
+.header_photo {
+    flex: 0 0 50%;
+}
+
+.nav {
+    padding: 2rem 0;
+}
+
+.nav *:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.nav_list {
+    display: flex;
+    margin-left: 5rem;
+
+  
+}
+
+.nav_list :hover {
+    color: hsl(257, 27%, 26%);
+    transition: all .5s;
+}
+
+.nav_link {
+    font-size: 1.5rem;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 1.4rem;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.btn_light {
+    margin-right: 3rem;
+}
+
+.btn_light :hover {
+    color: hsl(347, 67%, 52%);
+    transition: all .5s;
+}
+
+
+
+.btn_cyan {
+    padding: .5rem 1.8rem;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 10rem;
+}
+
+.btn_cyan :hover {
+    padding: .5rem 1.8rem;
+    background-color: white;
+    color: hsl(180, 66%, 49%);
+    border-radius: 10rem solid hsl(180, 66%, 49%);;
+}
+
+.btn_shorten {
+    padding: 1rem 3.5rem;
+}
+
+.heading_primary {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.shorten {
+    padding: 5rem 0;
+    position: relative;
+   
+}
+
+.shorten_content {
+    background-color: hsl(257, 27%, 26%);
+    width: 90%;
+    padding: 4rem 4rem;
+    border-radius: 1rem;
+}
+
+.shorten_flex {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    flex: 0 0 80%;
+}
+
+.form_input {
+    display: block;
+    width: 95%;
+    padding: 2rem 2rem;
+    border: none;
+    outline: none;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    font-family: inherit;
+}
+
+.features {
+    padding: 5rem 0 20rem 0;
+    margin-top: -5rem;
+    background-color: hsl(0, 0%, 75%);
+    margin-top: -9vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.features_textbox {
+    text-align: center;
+    padding: 10rem 30vw;
+    color: hsl(255, 11%, 22%)
+}
+
+.features_textbox *:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.features_text {
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+}
+
+.heading_secondary {
+    font-size: 4rem;
+    font-weight: 700;
+}
