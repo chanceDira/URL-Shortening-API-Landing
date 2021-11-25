@@ -127,7 +127,12 @@ body {
 }
 
 .btn_shorten {
-    padding: 1rem 3.5rem;
+    padding: 1.2rem 3.5rem;
+}
+
+.btn_cyan--boost {
+    padding: 1.5rem 4.5rem;
+
 }
 
 .heading_primary {
@@ -193,7 +198,130 @@ body {
     margin-bottom: 6rem;
 }
 
+.features_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 3rem;
+    color: hsl(255, 11%, 22%);
+}
+
+.features_card {
+    padding: 2rem 4rem;
+    background-color: white;
+    box-shadow: 0 .2rem .5rem rgba(black, -1);
+    border-radius: 1rem;
+}
+
+.features_card--2 {
+    transform: translateY(3.5rem);    
+}
+
+.features_card--3 {
+    transform: translateY(7.5rem);  
+}
+
+.features_card .features_card--icon {
+    background-color: hsl(255, 11%, 22%);
+    border-radius: 10rem;
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    transform: translateY(-6rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features_card .features_card--img {
+    width: 4rem;
+}
+
+.features_card .features_card--text {
+    font-size: 1.3rem;
+    transform: translateY(-2rem);
+}
+
 .heading_secondary {
     font-size: 4rem;
     font-weight: 700;
+}
+
+.heading_secondary--boost {
+    color: white;
+}
+
+
+
+.heading-tertiary {
+    font-size: 2rem;
+    font-weight: 700;
+    transform: translateY(-4rem);
+}
+
+.boost {
+    background-color: hsl(257, 27%, 26%);
+    color: white;
+    padding: 5rem 0;
+    margin-top: 55vw;
+    
+}
+
+.boost_textbox {
+    text-align: center;
+}
+
+.boost_textbox *:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.footer {
+    padding: 5rem 0;
+    background-color: hsl(255, 11%, 22%);
+}
+
+.footer_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 3rem;
+}
+
+.footer_logo {
+    filter: brightness(180);
+}
+
+.footer_list {
+    list-style: none;
+    display: block;
+}
+
+.footer_list--social {
+    display: flex;
+}
+
+.footer_list--social *:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.footer_item {
+    display: block;
+}
+
+.footer_link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.footer_link--icon {
+    font-size: 2.5rem;
+}
+
+.footer_link :hover {
+    color: white;
+}
+
+
+.footer_span {
+    color: white;
+    font-size: 2rem;
 }
